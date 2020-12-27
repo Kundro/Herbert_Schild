@@ -1,3 +1,2 @@
-﻿  Source_3.cpp
-D:\Visual\Projects\Herbert_Schildt\Herbert_Schildt\Source_3.cpp(23,17): error C2660: 'strcpy_s': function does not take 2 arguments
-D:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(28,30): message : see declaration of 'strcpy_s'
+﻿  Source.cpp
+  Herbert_Schildt.vcxproj -> D:\Visual\Projects\Herbert_Schildt\Herbert_Schildt\Debug\Herbert_Schildt.exe

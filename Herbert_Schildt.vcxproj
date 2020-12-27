@@ -140,7 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Herbert_Schildt %28timer%29.cpp" />
+    <ClCompile Include="Source_5.cpp" />
     <ClCompile Include="Source_3.cpp" />
+    <ClCompile Include="Source_4.cpp" />
     <ClCompile Include="This.cpp" />
     <ClCompile Include="Source_1.cpp" />
     <ClCompile Include="Source_2.cpp" />
