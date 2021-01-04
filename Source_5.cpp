@@ -1,4 +1,7 @@
-// Перегрузка оператора + //
+// Перегрузка оператора + и = //
+// Перегрузка унарных операторов //
+
+/*
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -10,9 +13,28 @@ public:
 	three_d(int i, int j, int k) { x = i; y = j; z = k; }
 	three_d operator+(three_d op2);
 	three_d operator=(three_d op2);
+	three_d operator++();
+	three_d operator++(int notused);
 
 	void show() { cout << x << ", " << y << ", " << z << "." << endl; }
 };
+
+three_d three_d::operator++(int notused)
+{
+	three_d temp = *this;
+	x++;
+	y++;
+	z++;
+	return temp;
+}
+
+three_d three_d::operator++()
+{
+	x++;
+	y++;
+	z++;
+	return *this;
+}
 
 three_d three_d::operator+(three_d op2)  // Перегрузка оператора +
 {
@@ -43,6 +65,14 @@ int main()
 	cout << "-----------------------------------------" << endl;
 	c = a + b+c;
 	a.show(); b.show(); c.show();
+	cout << "-----------------------------------------" << endl;
+	++c;
+	a.show(); b.show(); c.show();
+	cout << "-----------------------------------------" << endl;
+	c++;
+	a.show(); b.show(); c.show();
 
 	return 0;
 }
+
+*/
