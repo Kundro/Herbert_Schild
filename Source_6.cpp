@@ -1,5 +1,5 @@
 // В данной программе используются перегруженные операторные функции-"друзья" operator++() //
-
+/*
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -70,3 +70,4 @@ int main()
 	++c;
 	c.show();
 }
+*/
